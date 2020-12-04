@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable", "esnext.array"],
+    "noUnusedLocals": true
+  },
+  "include": ["src", "custom_typings"],
+  "exclude": ["node_modules"]
+}

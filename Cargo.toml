@@ -1,0 +1,13 @@
+[workspace]
+members = [
+  "core",
+  "backend",
+  "backend/backend-types",
+  "frontend/shengji-wasm"
+]
+
+[profile.release]
+lto = true
+
+[profile.release.package."shengji-wasm"]
+opt-level = 'z'
